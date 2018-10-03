@@ -1,0 +1,97 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Untitled Document</title>
+	<style>
+		button{
+			border: 3px gray solid;
+			border-radius: 15px;
+			background-color: white;
+			padding:15px;
+			text-transform: uppercase;
+			font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+			font-size: 20px;
+			font-weight: 800;
+			transition: 0.4s;
+			color: gray;
+		}
+		button:hover{
+			border: 3px gray solid;
+			border-radius: 15px;
+			background-color: gray;
+			padding:15px;
+			text-transform: uppercase;
+			font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+			font-size: 20px;
+			font-weight: 800;
+			color: white;
+		}
+		button:focus {outline:none;}
+		
+
+		
+		 #highcharts-34824405-6fed-44e1-8972-f531fcd4d9a5{
+			
+			transition: opacity 0.4s;
+			opacity: 0;
+		}
+		.displayon{
+			
+			
+			opacity: 1 !important;
+			
+		}
+	</style>
+	<script>function displayGraph() {
+    var element = document.getElementById("highcharts-34824405-6fed-44e1-8972-f531fcd4d9a5");
+    element.classList.toggle("displayon");
+}</script>
+<script>
+	/*function showFivePercent() {
+    var x = document.getElementById("highcharts-34824405-6fed-44e1-8972-f531fcd4d9a5");
+    if (x.style.visibility == "hidden") {
+        x.style.visibility = "visible";
+		x.style.opacity = "1"
+    } else {
+        x.style.visibility = "hidden";
+		x.style.opacity = "0";
+    }
+		
+}*/</script>
+</head>
+
+<body style="background-color: blue;">
+
+<div id="highcharts-34824405-6fed-44e1-8972-f531fcd4d9a5"></div>
+	<!--Five Percent Giving Graph -->
+	<script>
+(function(){ var files = ["https://code.highcharts.com/stock/highstock.js","https://code.highcharts.com/highcharts-more.js","https://code.highcharts.com/highcharts-3d.js","https://code.highcharts.com/modules/data.js","https://code.highcharts.com/modules/exporting.js","https://code.highcharts.com/modules/funnel.js","https://code.highcharts.com/modules/annotations.js","https://code.highcharts.com/modules/solid-gauge.js"],loaded = 0; if (typeof window["HighchartsEditor"] === "undefined") {window.HighchartsEditor = {ondone: [cl],hasWrapped: false,hasLoaded: false};include(files[0]);} else {if (window.HighchartsEditor.hasLoaded) {cl();} else {window.HighchartsEditor.ondone.push(cl);}}function isScriptAlreadyIncluded(src){var scripts = document.getElementsByTagName("script");for (var i = 0; i < scripts.length; i++) {if (scripts[i].hasAttribute("src")) {if ((scripts[i].getAttribute("src") || "").indexOf(src) >= 0 || (scripts[i].getAttribute("src") === "http://code.highcharts.com/highcharts.js" && src === "https://code.highcharts.com/stock/highstock.js")) {return true;}}}return false;}function check() {if (loaded === files.length) {for (var i = 0; i < window.HighchartsEditor.ondone.length; i++) {try {window.HighchartsEditor.ondone[i]();} catch(e) {console.error(e);}}window.HighchartsEditor.hasLoaded = true;}}function include(script) {function next() {++loaded;if (loaded < files.length) {include(files[loaded]);}check();}if (isScriptAlreadyIncluded(script)) {return next();}var sc=document.createElement("script");sc.src = script;sc.type="text/javascript";sc.onload=function() { next(); };document.head.appendChild(sc);}function each(a, fn){if (typeof a.forEach !== "undefined"){a.forEach(fn);}else{for (var i = 0; i < a.length; i++){if (fn) {fn(a[i]);}}}}var inc = {},incl=[]; each(document.querySelectorAll("script"), function(t) {inc[t.src.substr(0, t.src.indexOf("?"))] = 1; }); function cl() {if(typeof window["Highcharts"] !== "undefined"){var options={"chart":{"type":"bar"},"title":{"text":"Five Percent Giving"},"xAxis":[{"categories":["Apples","Oranges","Pears","Grapes","Bananas"]}],"yAxis":[{"min":0,"title":{"text":"Amount Given (Thousands)"}}],"legend":{"reversed":true},"plotOptions":{"series":{"stacking":"normal","animation":false,"dataLabels":{}}},"series":[{"name":"Central","_colorIndex":0},{"name":"East","_colorIndex":1},{"name":"Mountain Plains","_colorIndex":2},{"name":"Pacific","_colorIndex":3},{"name":"Southeast","_colorIndex":4}],"data":{"csv":"\"Year\";\"Central\";\"East\";\"Mountain Plains\";\"Pacific\";\"Southeast\"\n2017;\"360,939\";\"180,121\";\"130,946\";\"514,465\";\"155,030\"\n2016;\"347,305\";\"182,749\";\"144,096\";\"518,873\";\"153,282\"\n2015;\"349,372\";\"188,275\";\"155,025\";\"481,534\";\"141,756\"\n2014;\"338,182\";\"178,046\";\"22,237\";\"455,518\";\"146,485\"\n2013;\"348,998\";\"175,670\";\"9,808\";\"441,828\";\"139,133\"\n2012;\"327,397\";\"191,787\";\"5,511\";\"418,492\";\"124,996\"","googleSpreadsheetKey":false,"googleSpreadsheetWorksheet":false},"subtitle":{}};/*
+// Sample of extending options:
+Highcharts.merge(true, options, {
+    chart: {
+        backgroundColor: "#bada55"
+    },
+    plotOptions: {
+        series: {
+            cursor: "pointer",
+            events: {
+                click: function(event) {
+                    alert(this.name + " clicked\n" +
+                          "Alt: " + event.altKey + "\n" +
+                          "Control: " + event.ctrlKey + "\n" +
+                          "Shift: " + event.shiftKey + "\n");
+                }
+            }
+        }
+    }
+});
+*/new Highcharts.Chart("highcharts-34824405-6fed-44e1-8972-f531fcd4d9a5", options);}}})();
+</script>
+
+	<!--<div><button id="button" onclick="showFivePercent();">Show Graph</button></div>-->
+
+<div style="margin-top: 20px;" align="center"><button onclick="displayGraph()">Show/Hide graph</button></div>
+	
+</body>
+</html>
