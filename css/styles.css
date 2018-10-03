@@ -1,16 +1,27 @@
 @charset "UTF-8";
 /* CSS Document */
+a{
+	text-decoration: none;
+	color: black;
+}
+body{
+	font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, "sans-serif";
+}
 .header{
-	background-color: #929292;
-	width:100%;
+	background-color: #fff;
 	padding: 20px;
 	text-align: center;
+	margin: 0px;
 }
 li.navlink{
 	display: inline;
 	margin:10px;
-	
-	
+	font-size: 24px;
+	text-decoration: none;
+	transition: 0.4s;
+}
+li.navlink:hover{
+	color: #4DC3DB;
 }
 		button{
 			border: 3px gray solid;
