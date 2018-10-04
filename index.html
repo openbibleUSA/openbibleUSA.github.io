@@ -317,9 +317,21 @@ ol.organizational-chart > li > ol:after {
 ol.organizational-chart > li > ol > li > div {
 
     background-color: #83e4e2;
-
+	border: solid 3px #83e4e2;
+	transition: 0.2s;
 }
+ol.organizational-chart > li > ol > li > div:hover  {
 
+    background-color: #fff;
+	border: solid 3px #83e4e2;
+	color: #83e4e2;
+}
+	a h2{
+		transition:0.2s;
+	}
+	a h2:hover{
+		color: #83e4e2;
+	}
 
 
 /*** TERTIARY ***/
@@ -327,10 +339,24 @@ ol.organizational-chart > li > ol > li > div {
 ol.organizational-chart > li > ol > li > ol > li > div {
 
     background-color: #fd6470;
+	border: solid 3px #fd6470;
+	transition: 0.2s;
+
+}
+ol.organizational-chart > li > ol > li > ol > li > div:hover   {
+
+    background-color: #fff;
+	border: solid 3px #fd6470;
+	color: #fd6470;
 
 }
 
-
+	a h3{
+		transition:0.2s;
+	}
+	a h3:hover{
+		color: #fd6470;
+	}
 
 /*** QUATERNARY ***/
 
@@ -636,7 +662,7 @@ ol.organizational-chart > li > ol > li > ol > li > ol > li > ol > li > div {
 	<a href="#"><li class="navlink">Contact</li></a>-->
 </ul>
 		</div>
-	<p>This is the index page where the map of all the graphs will be.</p>
+	<!--<p>This is the index page where the map of all the graphs will be.</p>-->
 <ol class="organizational-chart">
 
             <li>
@@ -664,7 +690,7 @@ ol.organizational-chart > li > ol > li > ol > li > ol > li > ol > li > div {
 
                                 <div>
 
-                                    <h3>Church Plants</h3>
+                                    <a href="church-plants.html"><h3>Church Plants</h3></a>
 
                                 </div>
 
@@ -674,7 +700,7 @@ ol.organizational-chart > li > ol > li > ol > li > ol > li > ol > li > div {
 
                                 <div>
 
-                                    <h3>Five Percent</h3>
+									<a href="five-percent.html"><h3>Five Percent</h3></a>
 
                                 </div>
 							</li>
@@ -689,7 +715,7 @@ ol.organizational-chart > li > ol > li > ol > li > ol > li > ol > li > div {
 
                         <div>
 
-                            <h2>MVP</h2>
+                            <a href="#"><h2>MVP</h2></a>
 
                         </div>
 					</li>
@@ -802,7 +828,7 @@ ol.organizational-chart > li > ol > li > ol > li > ol > li > ol > li > div {
                             <h2>Colleges/Schools of Ministry</h2>
 
                         </div>
-
+	</li>
 
 
 </body>
