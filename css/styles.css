@@ -7,9 +7,12 @@ a{
 body{
 	font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, "sans-serif";
 }
+svg{
+	transition: .2s;
+}
 svg:hover ,
 svg:hover  { 
-  fill: #555;
+  fill: #fff;
 }
 .header{
 	background-color: #fff;
