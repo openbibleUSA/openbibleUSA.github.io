@@ -4,6 +4,45 @@
 <meta charset="UTF-8">
 <title>Church Plants</title>
 <link href="css/styles.css" rel="stylesheet" type="text/css">
+	<style>
+		#mvpTotalTable{
+			margin: 50px auto;
+			width: 50%;
+			
+		}
+		.divTable{
+	display: table;
+	width: 50%;
+	margin: auto;
+}
+.divTableRow {
+	display: table-row;
+}
+.divTableHeading {
+	background-color: #EEE;
+	display: table-header-group;
+}
+.divTableCell, .divTableHead {
+	border: 1px solid #999999;
+	display: table-cell;
+	padding: 3px 10px;
+	font-size: 24px;
+	font-weight: 600;
+	text-transform: uppercase
+}
+.divTableHeading {
+	background-color: #EEE;
+	display: table-header-group;
+	font-weight: bold;
+}
+.divTableFoot {
+	background-color: #EEE;
+	display: table-footer-group;
+	font-weight: bold;
+}
+.divTableBody {
+	display: table-row-group;
+}</style>
 	<script>function displayGraph() {
     var element = document.getElementById("highcharts-66fac1c4-c754-4bc9-98f9-9e8594d080c0");
     element.classList.toggle("displayon");
@@ -55,6 +94,36 @@ Highcharts.merge(true, options, {
 
 
 <div style="margin-top: 20px;" align="center"><button onclick="displayGraph()">Show/Hide graph</button></div>
+<div id="mvpTotalTable">
 	
+	<div class="divTable">
+<div class="divTableBody">
+<div class="divTableRow">
+<div class="divTableCell" style="">Year&nbsp;</div>
+<div class="divTableCell">&nbsp;Total $</div>
+</div>
+<div class="divTableRow">
+<div class="divTableCell">&nbsp;2017</div>
+<div class="divTableCell">$1,812,145.10</div>
+</div>
+<div class="divTableRow">
+<div class="divTableCell">&nbsp;2016</div>
+<div class="divTableCell">$1,965,753.77&nbsp;</div>
+</div>
+<div class="divTableRow">
+<div class="divTableCell">&nbsp;2015</div>
+<div class="divTableCell">$1,533,582.59&nbsp;</div>
+</div>
+<div class="divTableRow">
+<div class="divTableCell">&nbsp;2014</div>
+<div class="divTableCell">$1,672,777.25</div>
+</div>
+<div class="divTableRow">
+<div class="divTableCell">&nbsp;2013</div>
+<div class="divTableCell">$1,600,829.11</div>
+</div>
+</div>
+</div>
+	</div>
 </body>
 </html>
