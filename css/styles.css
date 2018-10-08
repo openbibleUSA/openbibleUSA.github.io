@@ -94,6 +94,11 @@ li.navlink:hover{
 			opacity: 0;
 		}
 
+		 #highcharts-9292d8d7-d49d-4928-9352-268d25ad7261{
+			
+			transition: opacity 0.4s;
+			opacity: 0;
+		}
 
 
 
