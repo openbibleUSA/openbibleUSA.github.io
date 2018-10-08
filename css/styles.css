@@ -106,6 +106,12 @@ li.navlink:hover{
 			opacity: 0;
 		}
 
+		 #highcharts-bd1aa038-c13d-47ff-88e1-7eedb9b21b61{
+			
+			transition: opacity 0.4s;
+			opacity: 0;
+		}
+
 
 
 
