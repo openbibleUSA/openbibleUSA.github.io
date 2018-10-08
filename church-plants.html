@@ -4,6 +4,55 @@
 <meta charset="UTF-8">
 <title>Church Plants</title>
 <link href="css/styles.css" rel="stylesheet" type="text/css">
+	<style>
+		#mvpTotalTable{
+			margin: 50px auto;
+			/*width: 50%;*/
+			
+		}
+		.divTable{
+	display: table;
+	width: 50%;
+	margin: auto;
+}
+.divTableRow {
+	display: table-row;
+}
+.divTableHeading {
+	background-color: #EEE;
+	display: table-header-group;
+}
+.divTableCell, .divTableHead {
+	border: 1px solid #999999;
+	display: table-cell;
+	padding: 3px 10px;
+	font-size: 20px;
+	/*font-weight: 600;*/
+	text-transform: uppercase;
+	text-align: center;
+}
+.divTableHeading {
+	background-color: #EEE;
+	display: table-header-group;
+	font-weight: bold;
+}
+.divTableFoot {
+	background-color: #EEE;
+	display: table-footer-group;
+	font-weight: bold;
+}
+.divTableBody {
+	display: table-row-group;
+}
+	
+		.bold{
+			font-size: 24px;
+			font-weight: 600;
+		}
+		
+		
+		
+	</style>
 	<script>function displayGraph() {
     var element = document.getElementById("highcharts-b05805d2-bb4c-4df5-b894-917a3128edf4");
     element.classList.toggle("displayon");
@@ -55,5 +104,126 @@ Highcharts.merge(true, options, {
 
 <div style="margin-top: 20px;" align="center"><button onclick="displayGraph()">Show/Hide graph</button></div>
 	
+	
+	<div id="mvpTotalTable">
+<div class="divTable">
+<div class="divTableBody">
+<div class="divTableRow">
+<div class="divTableCell bold">Year</div>
+<div class="divTableCell bold">Total</div>
+<div class="divTableCell bold">Year</div>
+<div class="divTableCell bold">Total</div>
+</div>
+<div class="divTableRow">
+<div class="divTableCell bold">2017</div>
+<div class="divTableCell bold">2</div>
+<div class="divTableCell bold">2016</div>
+<div class="divTableCell bold">4</div>
+</div>
+<div class="divTableRow">
+<div class="divTableCell">Central</div>
+<div class="divTableCell">1</div>
+<div class="divTableCell">Central</div>
+<div class="divTableCell">1</div>
+</div>
+<div class="divTableRow">
+<div class="divTableCell">East</div>
+<div class="divTableCell">0</div>
+<div class="divTableCell">East</div>
+<div class="divTableCell">1</div>
+</div>
+<div class="divTableRow">
+<div class="divTableCell">Mountain Plains</div>
+<div class="divTableCell">0</div>
+<div class="divTableCell">Mountain Plains</div>
+<div class="divTableCell">0</div>
+</div>
+<div class="divTableRow">
+<div class="divTableCell">Pacifc</div>
+<div class="divTableCell">0</div>
+<div class="divTableCell">Pacific</div>
+<div class="divTableCell">0</div>
+</div>
+<div class="divTableRow">
+<div class="divTableCell">Southeast</div>
+<div class="divTableCell">1</div>
+<div class="divTableCell">Southeast</div>
+<div class="divTableCell">2</div>
+</div>
+<div class="divTableRow">
+<div class="divTableCell bold">2015</div>
+<div class="divTableCell bold">3</div>
+<div class="divTableCell bold">2014</div>
+<div class="divTableCell bold">2</div>
+</div>
+<div class="divTableRow">
+<div class="divTableCell">Central</div>
+<div class="divTableCell">1</div>
+<div class="divTableCell">Central</div>
+<div class="divTableCell">0</div>
+</div>
+<div class="divTableRow">
+<div class="divTableCell">East</div>
+<div class="divTableCell">0</div>
+<div class="divTableCell">East</div>
+<div class="divTableCell">0</div>
+</div>
+<div class="divTableRow">
+<div class="divTableCell">Mountain Plains</div>
+<div class="divTableCell">0</div>
+<div class="divTableCell">Mountain Plains</div>
+<div class="divTableCell">0</div>
+</div>
+<div class="divTableRow">
+<div class="divTableCell">Pacifc</div>
+<div class="divTableCell">1</div>
+<div class="divTableCell">Pacifc</div>
+<div class="divTableCell">1</div>
+</div>
+<div class="divTableRow">
+<div class="divTableCell">Southeast</div>
+<div class="divTableCell">1</div>
+<div class="divTableCell">Southeast</div>
+<div class="divTableCell">1</div>
+</div>
+<div class="divTableRow">
+<div class="divTableCell bold">2013</div>
+<div class="divTableCell bold">7</div>
+<div class="divTableCell bold">2012</div>
+<div class="divTableCell bold">6</div>
+</div>
+<div class="divTableRow">
+<div class="divTableCell">Central</div>
+<div class="divTableCell">0</div>
+<div class="divTableCell">Central</div>
+<div class="divTableCell">2</div>
+</div>
+<div class="divTableRow">
+<div class="divTableCell">East</div>
+<div class="divTableCell">1</div>
+<div class="divTableCell">East</div>
+<div class="divTableCell">2</div>
+</div>
+<div class="divTableRow">
+<div class="divTableCell">Mountain Plains</div>
+<div class="divTableCell">0</div>
+<div class="divTableCell">Mountain Plains</div>
+<div class="divTableCell">0</div>
+</div>
+<div class="divTableRow">
+<div class="divTableCell">Pacifc</div>
+<div class="divTableCell">3</div>
+<div class="divTableCell">Pacifc</div>
+<div class="divTableCell">2</div>
+</div>
+<div class="divTableRow">
+<div class="divTableCell">Southeast</div>
+<div class="divTableCell">3</div>
+<div class="divTableCell">Southeast</div>
+<div class="divTableCell">0</div>
+</div>
+</div>
+</div>
+	</div>
 </body>
 </html>
