@@ -7,13 +7,7 @@ a{
 body{
 	font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, "sans-serif";
 }
-svg{
-	transition: .2s;
-}
-svg:hover ,
-svg:hover  { 
-  fill: #fff;
-}
+
 .header{
 	background-color: #fff;
 	padding: 20px;
@@ -81,6 +75,27 @@ li.navlink:hover{
 			transition: opacity 0.4s;
 			opacity: 0;
 		}
+
+		 #highcharts-dfcfe302-b1a5-46a4-9bb1-d02565815960{
+			
+			transition: opacity 0.4s;
+			opacity: 0;
+		}
+
+		 #highcharts-cab78750-895e-41f2-b07f-24a3ecd36d5b{
+			
+			transition: opacity 0.4s;
+			opacity: 0;
+		}
+
+		 #highcharts-d7c420c7-8577-4d16-96b0-abd768eb50e9{
+			
+			transition: opacity 0.4s;
+			opacity: 0;
+		}
+
+
+
 
 
 		.displayon{
