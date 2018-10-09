@@ -12,20 +12,24 @@ body{
 	background-color: #fff;
 	padding: 20px;
 	text-align: center;
-	margin: 0px;
+	margin: -10px;
+	box-shadow: 0px 6px 16px 0px rgba(0,0,0,0.2);
+	width: 100%;
 }
 li.navlink{
 	display: inline;
 	margin:10px;
 	font-size: 18px;
 	text-decoration: none;
-	transition: 0.4s;
+	transition: 0.2s;
+	color: #153559;
+	font-weight: 600
 }
 li.navlink:hover{
-	color: #4DC3DB;
+	color: #1579D1;
 }
 		button{
-			border: 3px gray solid;
+			border: 3px #153559 solid;
 			border-radius: 15px;
 			background-color: white;
 			padding:15px;
@@ -34,12 +38,12 @@ li.navlink:hover{
 			font-size: 20px;
 			font-weight: 800;
 			transition: 0.4s;
-			color: gray;
+			color: #153559;
 		}
 		button:hover{
-			border: 3px gray solid;
+			border: 3px #153559 solid;
 			border-radius: 15px;
-			background-color: gray;
+			background-color: #153559;
 			padding:15px;
 			text-transform: uppercase;
 			font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
@@ -55,12 +59,14 @@ li.navlink:hover{
 			
 			transition: opacity 0.4s;
 			opacity: 0;
+			 margin-top: 30px;
 		}
 
 		 #highcharts-6d2c77a9-1912-4cbb-8cb1-7e4a85ae7c76{
 			
 			transition: opacity 0.4s;
 			opacity: 0;
+			 margin-top: 30px;
 		}
 
 
@@ -68,60 +74,70 @@ li.navlink:hover{
 			
 			transition: opacity 0.4s;
 			opacity: 0;
+			margin-top: 30px;
 		}
 
 		 #highcharts-66fac1c4-c754-4bc9-98f9-9e8594d080c0{
 			
 			transition: opacity 0.4s;
 			opacity: 0;
+			 margin-top: 30px;
 		}
 
 		 #highcharts-dfcfe302-b1a5-46a4-9bb1-d02565815960{
 			
 			transition: opacity 0.4s;
 			opacity: 0;
+			 margin-top: 30px;
 		}
 
 		 #highcharts-cab78750-895e-41f2-b07f-24a3ecd36d5b{
 			
 			transition: opacity 0.4s;
 			opacity: 0;
+			 margin-top: 30px;
 		}
 
 		 #highcharts-d7c420c7-8577-4d16-96b0-abd768eb50e9{
 			
 			transition: opacity 0.4s;
 			opacity: 0;
+			 margin-top: 30px;
 		}
 
 		 #highcharts-9292d8d7-d49d-4928-9352-268d25ad7261{
 			
 			transition: opacity 0.4s;
 			opacity: 0;
+			 margin-top: 30px;
 		}
 
 		 #highcharts-9608d20d-23d1-4b7a-afd1-e5bafecd559c{
 			
 			transition: opacity 0.4s;
 			opacity: 0;
+			 margin-top: 30px;
 		}
 
 		 #highcharts-bd1aa038-c13d-47ff-88e1-7eedb9b21b61{
 			
 			transition: opacity 0.4s;
 			opacity: 0;
+			 margin-top: 30px;
 		}
 
 		 #highcharts-3b4350af-a08b-41d7-9301-447bf813991d{
 			
 			transition: opacity 0.4s;
 			opacity: 0;
+			 margin-top: 30px;
 		}
 
 		 #highcharts-aca4ac29-1cdb-41ca-a42d-8a13dc8968d4{
 			
 			transition: opacity 0.4s;
 			opacity: 0;
+			 margin-top: 30px;
 		}
 
 
@@ -132,3 +148,106 @@ li.navlink:hover{
 			opacity: 1 !important;
 			
 		}
+
+.dropbtn {
+    /*background-color: #4CAF50;*/
+    color: #153559;
+    padding: 16px;
+    font-size: 18px;
+    border: none;
+	font-weight: 600;
+	transition: 0.2s;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+	transition: 0.2s;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+	transition: 0.2s;
+	opacity: 0;
+	width: 100%;
+	
+}
+
+.dropdown-content a {
+    color: #153559;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+	transition: 0.2s;
+	text-align: center;
+}
+
+.dropdown-content a:hover {background-color: #ddd; transition: 0.2s; color: #1579D1;}
+
+.dropdown:hover .dropdown-content {display: block; transition: 0.2s; }
+
+.dropdown:hover .dropbtn {background-color: #fff; transition: 0.2s;}
+
+.dropdown-content:hover {background-color: #fff; opacity: 1; transition: 0.2s; }
+
+.dropbtn:hover{ color: #1579D1;}
+
+
+		#mvpTotalTable{
+			margin: 50px auto;
+			/*width: 50%;*/
+			
+		}
+		.divTable{
+	display: table;
+	width: 50%;
+	margin: auto;
+}
+.divTableRow {
+	display: table-row;
+}
+.divTableHeading {
+	background-color: #EEE;
+	display: table-header-group;
+}
+.divTableCell, .divTableHead {
+	/*border: 1px solid #999999;*/
+	display: table-cell;
+	padding: 3px 10px;
+	font-size: 20px;
+	/*font-weight: 600;*/
+	text-transform: uppercase;
+	text-align: center;
+	background-color: #eee;
+	border: 1px #bbb solid;
+	
+}
+.divTableHeading {
+	background-color: #EEE;
+	display: table-header-group;
+	font-weight: bold;
+}
+.divTableFoot {
+	background-color: #EEE;
+	display: table-footer-group;
+	font-weight: bold;
+}
+.divTableBody {
+	display: table-row-group;
+}
+	
+		.bold{
+			font-size: 24px;
+			font-weight: 600;
+		}
+
+
+
+
+
+
