@@ -140,6 +140,13 @@ li.navlink:hover{
 			 margin-top: 30px;
 		}
 
+		 #highcharts-16015860-4d3a-4476-922a-ad4d6f13d87b{
+			
+			transition: opacity 0.4s;
+			opacity: 0;
+			 margin-top: 30px;
+		}
+
 
 
 		.displayon{
