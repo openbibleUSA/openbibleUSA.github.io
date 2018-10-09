@@ -4,46 +4,6 @@
 <meta charset="UTF-8">
 <title>New Credentialed Ministers</title>
 <link href="css/styles.css" rel="stylesheet" type="text/css">
-	<style>
-		#mvpTotalTable{
-			margin: 50px auto;
-			width: 50%;
-			
-		}
-		.divTable{
-	display: table;
-	width: 50%;
-	margin: auto;
-}
-.divTableRow {
-	display: table-row;
-}
-.divTableHeading {
-	background-color: #EEE;
-	display: table-header-group;
-}
-.divTableCell, .divTableHead {
-	border: 1px solid #999999;
-	display: table-cell;
-	padding: 3px 10px;
-	font-size: 24px;
-	font-weight: 600;
-	text-transform: uppercase;
-	text-align: center;
-}
-.divTableHeading {
-	background-color: #EEE;
-	display: table-header-group;
-	font-weight: bold;
-}
-.divTableFoot {
-	background-color: #EEE;
-	display: table-footer-group;
-	font-weight: bold;
-}
-.divTableBody {
-	display: table-row-group;
-}</style>
 	<script>function displayGraph() {
     var element = document.getElementById("highcharts-bd1aa038-c13d-47ff-88e1-7eedb9b21b61");
     element.classList.toggle("displayon");
@@ -63,7 +23,51 @@
 </head>
 
 <body style="background-color: white;">
-
+		<div class="header">
+<ul id="mainNav" class="nav">
+	<a href="index.html"><li class="navlink" style="">Home</li></a>
+		<div class="dropdown">
+  <a href="affilliated-churches.html" class="dropbtn">Affiliated Churches</a>
+  <div class="dropdown-content">
+    <a href="church-plants.html">Church Plants</a>
+    <a href="five-percent.html">Five Percent</a>
+  </div>
+</div>
+<!--	<a href="church-plants.html"><li class="navlink">Church Plants</li></a>
+	<a href="five-percent.html"><li class="navlink">Five Percent</li></a>-->
+	<a href="mvp-churches.html"><li class="navlink">MVP</li></a>
+	<div class="dropdown">
+  <a href="disciples-total.html" class="dropbtn">Disciples Made</a>
+  <div class="dropdown-content">
+    <a href="disciples-usa.html">US Disciples</a>
+    <a href="disciples-global.html">Global Disciples</a>
+  </div>
+</div>
+<!--	<a href="disciples-total.html"><li class="navlink">Disciples Made</li></a>
+	<a href="disciples-usa.html"><li class=" navlink">US Disciples</li></a>
+	<a href="disciples-global.html"><li class=" navlink">Global Disciples</li></a>-->
+		<div class="dropdown">
+  <a href="credentialed-ministers.html" class="dropbtn">Credentialed Ministers</a>
+  <div class="dropdown-content">
+    <a href="new-ministers.html">New Ministers</a>
+    <a href="ministers-tithe.html">Ministerial Tithe</a>
+  </div>
+</div>
+<!--	<a href="credentialed-ministers.html"><li class=" navlink">Credentialed Ministers</li></a>
+	<a href="new-ministers.html"><li class=" navlink">New Ministers</li></a>
+	<a href="ministers-tithe.html"><li class=" navlink">Ministerial Tithe</li></a>-->
+	<div class="dropdown">
+  <a href="disciples-total.html" class="dropbtn">Nations Reached</a>
+  <div class="dropdown-content">
+    <a href="disciples-usa.html">Missionaries Deployed</a>
+  </div>
+</div>
+<!--	<a href="nations-reached.html"><li class=" navlink">Nations Reached</li></a>
+	<a href="missionaries-deployed.html"><li class=" navlink">Missionaries Deployed</li></a>-->
+	
+	
+</ul>
+		</div>
 
 
 
@@ -106,11 +110,11 @@ Highcharts.merge(true, options, {
 <div class="divTable">
 <div class="divTableBody">
 <div class="divTableRow">
-<div class="divTableCell">Year</div>
-<div class="divTableCell">First-TIme Credentialed</div>
+<div class="divTableCell bold" style="border-radius: 15px 0px 0px 0px;">Year</div>
+<div class="divTableCell bold" style="border-radius:  0px 15px 0px 0px;">First-TIme Credentialed</div>
 </div>
 <div class="divTableRow">
-<div class="divTableCell">2018</div>
+<div class="divTableCell" >2018</div>
 <div class="divTableCell">13 (8/2/18)</div>
 </div>
 <div class="divTableRow">
@@ -134,8 +138,8 @@ Highcharts.merge(true, options, {
 <div class="divTableCell">35</div>
 </div>
 <div class="divTableRow">
-<div class="divTableCell">2012</div>
-<div class="divTableCell">38</div>
+<div class="divTableCell" style="border-radius:  0px  0px  0px 15px ;">2012</div>
+<div class="divTableCell" style="border-radius:  0px  0px 15px 0px ;">38</div>
 </div>
 </div>
 </div>

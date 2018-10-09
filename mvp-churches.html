@@ -4,45 +4,7 @@
 <meta charset="UTF-8">
 <title>Church Plants</title>
 <link href="css/styles.css" rel="stylesheet" type="text/css">
-	<style>
-		#mvpTotalTable{
-			margin: 50px auto;
-			width: 50%;
-			
-		}
-		.divTable{
-	display: table;
-	width: 50%;
-	margin: auto;
-}
-.divTableRow {
-	display: table-row;
-}
-.divTableHeading {
-	background-color: #EEE;
-	display: table-header-group;
-}
-.divTableCell, .divTableHead {
-	border: 1px solid #999999;
-	display: table-cell;
-	padding: 3px 10px;
-	font-size: 24px;
-	font-weight: 600;
-	text-transform: uppercase
-}
-.divTableHeading {
-	background-color: #EEE;
-	display: table-header-group;
-	font-weight: bold;
-}
-.divTableFoot {
-	background-color: #EEE;
-	display: table-footer-group;
-	font-weight: bold;
-}
-.divTableBody {
-	display: table-row-group;
-}</style>
+
 	<script>function displayGraph() {
     var element = document.getElementById("highcharts-66fac1c4-c754-4bc9-98f9-9e8594d080c0");
     element.classList.toggle("displayon");
@@ -143,8 +105,8 @@ Highcharts.merge(true, options, {
 	<div class="divTable">
 <div class="divTableBody">
 <div class="divTableRow">
-<div class="divTableCell" style="">Year</div>
-<div class="divTableCell">Total $</div>
+<div class="divTableCell bold" style="border-radius: 15px 0px 0px 0px;">Year</div>
+<div class="divTableCell bold" style="border-radius:  0px 15px 0px 0px;">Total $</div>
 </div>
 <div class="divTableRow">
 <div class="divTableCell">2017</div>
@@ -163,8 +125,8 @@ Highcharts.merge(true, options, {
 <div class="divTableCell">$1,672,777.25</div>
 </div>
 <div class="divTableRow">
-<div class="divTableCell">2013</div>
-<div class="divTableCell">$1,600,829.11</div>
+<div class="divTableCell" style="border-radius:  0px  0px  0px 15px;">2013</div>
+<div class="divTableCell" style="border-radius:  0px  0px 15px 0px;">$1,600,829.11</div>
 </div>
 </div>
 </div>
