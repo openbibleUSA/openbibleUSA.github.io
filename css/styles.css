@@ -164,12 +164,14 @@ li.navlink:hover{
     border: none;
 	font-weight: 600;
 	transition: 0.2s;
+	opacity: 1;
 }
 
 .dropdown {
     position: relative;
     display: inline-block;
-	transition: 0.2s;
+	transition: 0.2s
+
 }
 
 .dropdown-content {
@@ -194,11 +196,11 @@ li.navlink:hover{
 	text-align: center;
 }
 
-.dropdown-content a:hover {background-color: #ddd; transition: 0.2s; color: #1579D1;}
+.dropdown-content a:hover {background-color: #ddd; transition: 0.2s; color: #1579D1; opacity: 1;}
 
-.dropdown:hover .dropdown-content {display: block; transition: 0.2s; }
+.dropdown:hover .dropdown-content {display: block; opacity: 1; transition: 0.2s; }
 
-.dropdown:hover .dropbtn {background-color: #fff; transition: 0.2s;}
+.dropdown:hover .dropbtn {background-color: #fff; opacity: 1; transition: 0.2s;}
 
 .dropdown-content:hover {background-color: #fff; opacity: 1; transition: 0.2s; }
 
