@@ -62,12 +62,56 @@
 </head>
 
 <body style="background-color: white;">
+	<div class="header">
+<ul id="mainNav" class="nav">
+	<a href="index.html"><li class="navlink" style="">Home</li></a>
+		<div class="dropdown">
+  <a href="affilliated-churches.html" class="dropbtn">Affiliated Churches</a>
+  <div class="dropdown-content">
+    <a href="church-plants.html">Church Plants</a>
+    <a href="five-percent.html">Five Percent</a>
+  </div>
+</div>
+<!--	<a href="church-plants.html"><li class="navlink">Church Plants</li></a>
+	<a href="five-percent.html"><li class="navlink">Five Percent</li></a>-->
+	<a href="mvp-churches.html"><li class="navlink">MVP</li></a>
+	<div class="dropdown">
+  <a href="disciples-total.html" class="dropbtn">Disciples Made</a>
+  <div class="dropdown-content">
+    <a href="disciples-usa.html">US Disciples</a>
+    <a href="disciples-global.html">Global Disciples</a>
+  </div>
+</div>
+<!--	<a href="disciples-total.html"><li class="navlink">Disciples Made</li></a>
+	<a href="disciples-usa.html"><li class=" navlink">US Disciples</li></a>
+	<a href="disciples-global.html"><li class=" navlink">Global Disciples</li></a>-->
+		<div class="dropdown">
+  <a href="credentialed-ministers.html" class="dropbtn">Credentialed Ministers</a>
+  <div class="dropdown-content">
+    <a href="new-ministers.html">New Ministers</a>
+    <a href="ministers-tithe.html">Ministerial Tithe</a>
+  </div>
+</div>
+<!--	<a href="credentialed-ministers.html"><li class=" navlink">Credentialed Ministers</li></a>
+	<a href="new-ministers.html"><li class=" navlink">New Ministers</li></a>
+	<a href="ministers-tithe.html"><li class=" navlink">Ministerial Tithe</li></a>-->
+	<div class="dropdown">
+  <a href="disciples-total.html" class="dropbtn">Nations Reached</a>
+  <div class="dropdown-content">
+    <a href="disciples-usa.html">Missionaries Deployed</a>
+  </div>
+</div>
+<!--	<a href="nations-reached.html"><li class=" navlink">Nations Reached</li></a>
+	<a href="missionaries-deployed.html"><li class=" navlink">Missionaries Deployed</li></a>-->
+	
+	
+</ul>
+		</div>
 
 
 
 
-
-<div style="width:50%; margin:auto;" id="highcharts-66fac1c4-c754-4bc9-98f9-9e8594d080c0"></div>
+<div style="width:50%; margin: 30px auto;" id="highcharts-66fac1c4-c754-4bc9-98f9-9e8594d080c0"></div>
 	<script>
 (function(){ var files = ["https://code.highcharts.com/stock/highstock.js","https://code.highcharts.com/highcharts-more.js","https://code.highcharts.com/highcharts-3d.js","https://code.highcharts.com/modules/data.js","https://code.highcharts.com/modules/exporting.js","https://code.highcharts.com/modules/funnel.js","https://code.highcharts.com/modules/annotations.js","https://code.highcharts.com/modules/solid-gauge.js"],loaded = 0; if (typeof window["HighchartsEditor"] === "undefined") {window.HighchartsEditor = {ondone: [cl],hasWrapped: false,hasLoaded: false};include(files[0]);} else {if (window.HighchartsEditor.hasLoaded) {cl();} else {window.HighchartsEditor.ondone.push(cl);}}function isScriptAlreadyIncluded(src){var scripts = document.getElementsByTagName("script");for (var i = 0; i < scripts.length; i++) {if (scripts[i].hasAttribute("src")) {if ((scripts[i].getAttribute("src") || "").indexOf(src) >= 0 || (scripts[i].getAttribute("src") === "http://code.highcharts.com/highcharts.js" && src === "https://code.highcharts.com/stock/highstock.js")) {return true;}}}return false;}function check() {if (loaded === files.length) {for (var i = 0; i < window.HighchartsEditor.ondone.length; i++) {try {window.HighchartsEditor.ondone[i]();} catch(e) {console.error(e);}}window.HighchartsEditor.hasLoaded = true;}}function include(script) {function next() {++loaded;if (loaded < files.length) {include(files[loaded]);}check();}if (isScriptAlreadyIncluded(script)) {return next();}var sc=document.createElement("script");sc.src = script;sc.type="text/javascript";sc.onload=function() { next(); };document.head.appendChild(sc);}function each(a, fn){if (typeof a.forEach !== "undefined"){a.forEach(fn);}else{for (var i = 0; i < a.length; i++){if (fn) {fn(a[i]);}}}}var inc = {},incl=[]; each(document.querySelectorAll("script"), function(t) {inc[t.src.substr(0, t.src.indexOf("?"))] = 1; }); function cl() {if(typeof window["Highcharts"] !== "undefined"){var options={"chart":{"type":"column","polar":false},"plotOptions":{"series":{"dataLabels":{"enabled":true},"animation":false}},"title":{"text":"MVP Cooperation"},"subtitle":{"text":""},"exporting":{},"series":[{"name":"MVP Cooperation (%)","_colorIndex":0}],"data":{"csv":"\"Year\";\"MVP Cooperation (%)\"\n2017;87\n2016;85\n2015;85\n2014;83\n2013;83\n2012;82","googleSpreadsheetKey":false,"googleSpreadsheetWorksheet":false},"yAxis":[{"title":{"text":"Percentage of Churches"}}],"colors":["#1e88e5","#434348","#90ed7d","#f7a35c","#8085e9","#f15c80","#e4d354","#2b908f","#f45b5b","#91e8e1"]};/*
 // Sample of extending options:
@@ -99,27 +143,27 @@ Highcharts.merge(true, options, {
 	<div class="divTable">
 <div class="divTableBody">
 <div class="divTableRow">
-<div class="divTableCell" style="">Year&nbsp;</div>
-<div class="divTableCell">&nbsp;Total $</div>
+<div class="divTableCell" style="">Year</div>
+<div class="divTableCell">Total $</div>
 </div>
 <div class="divTableRow">
-<div class="divTableCell">&nbsp;2017</div>
+<div class="divTableCell">2017</div>
 <div class="divTableCell">$1,812,145.10</div>
 </div>
 <div class="divTableRow">
-<div class="divTableCell">&nbsp;2016</div>
-<div class="divTableCell">$1,965,753.77&nbsp;</div>
+<div class="divTableCell">2016</div>
+<div class="divTableCell">$1,965,753.77</div>
 </div>
 <div class="divTableRow">
-<div class="divTableCell">&nbsp;2015</div>
-<div class="divTableCell">$1,533,582.59&nbsp;</div>
+<div class="divTableCell">2015</div>
+<div class="divTableCell">$1,533,582.59</div>
 </div>
 <div class="divTableRow">
-<div class="divTableCell">&nbsp;2014</div>
+<div class="divTableCell">2014</div>
 <div class="divTableCell">$1,672,777.25</div>
 </div>
 <div class="divTableRow">
-<div class="divTableCell">&nbsp;2013</div>
+<div class="divTableCell">2013</div>
 <div class="divTableCell">$1,600,829.11</div>
 </div>
 </div>
