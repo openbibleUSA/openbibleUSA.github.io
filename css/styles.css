@@ -57,93 +57,93 @@ li.navlink:hover{
 		
 		 #highcharts-34824405-6fed-44e1-8972-f531fcd4d9a5{
 			
-			transition: opacity 0.4s;
-			opacity: 0;
+			/*transition: opacity 0.4s;
+			opacity: 0;*/
 			 margin-top: 30px;
 		}
 
 		 #highcharts-6d2c77a9-1912-4cbb-8cb1-7e4a85ae7c76{
 			
-			transition: opacity 0.4s;
-			opacity: 0;
+			/*transition: opacity 0.4s;
+			opacity: 0;*/
 			 margin-top: 30px;
 		}
 
 
 		 #highcharts-b099b82c-1d5e-4674-9195-b1d05b8c1c16{
 			
-			transition: opacity 0.4s;
-			opacity: 0;
+			/*transition: opacity 0.4s;
+			opacity: 0;*/
 			margin-top: 30px;
 		}
 
 		 #highcharts-66fac1c4-c754-4bc9-98f9-9e8594d080c0{
 			
-			transition: opacity 0.4s;
-			opacity: 0;
+			/*transition: opacity 0.4s;
+			opacity: 0;*/
 			 margin-top: 30px;
 		}
 
 		 #highcharts-dfcfe302-b1a5-46a4-9bb1-d02565815960{
 			
-			transition: opacity 0.4s;
-			opacity: 0;
+			/*transition: opacity 0.4s;
+			opacity: 0;*/
 			 margin-top: 30px;
 		}
 
 		 #highcharts-cab78750-895e-41f2-b07f-24a3ecd36d5b{
 			
-			transition: opacity 0.4s;
-			opacity: 0;
+			/*transition: opacity 0.4s;
+			opacity: 0;*/
 			 margin-top: 30px;
 		}
 
 		 #highcharts-d7c420c7-8577-4d16-96b0-abd768eb50e9{
 			
-			transition: opacity 0.4s;
-			opacity: 0;
+			/*transition: opacity 0.4s;
+			opacity: 0;*/
 			 margin-top: 30px;
 		}
 
 		 #highcharts-9292d8d7-d49d-4928-9352-268d25ad7261{
 			
-			transition: opacity 0.4s;
-			opacity: 0;
+			/*transition: opacity 0.4s;
+			opacity: 0;*/
 			 margin-top: 30px;
 		}
 
 		 #highcharts-9608d20d-23d1-4b7a-afd1-e5bafecd559c{
 			
-			transition: opacity 0.4s;
-			opacity: 0;
+			/*transition: opacity 0.4s;
+			opacity: 0;*/
 			 margin-top: 30px;
 		}
 
 		 #highcharts-bd1aa038-c13d-47ff-88e1-7eedb9b21b61{
 			
-			transition: opacity 0.4s;
-			opacity: 0;
+			/*transition: opacity 0.4s;
+			opacity: 0;*/
 			 margin-top: 30px;
 		}
 
 		 #highcharts-3b4350af-a08b-41d7-9301-447bf813991d{
 			
-			transition: opacity 0.4s;
-			opacity: 0;
+			/*transition: opacity 0.4s;
+			opacity: 0;*/
 			 margin-top: 30px;
 		}
 
 		 #highcharts-aca4ac29-1cdb-41ca-a42d-8a13dc8968d4{
 			
-			transition: opacity 0.4s;
-			opacity: 0;
+			/*transition: opacity 0.4s;
+			opacity: 0;*/
 			 margin-top: 30px;
 		}
 
 		 #highcharts-16015860-4d3a-4476-922a-ad4d6f13d87b{
 			
-			transition: opacity 0.4s;
-			opacity: 0;
+			/*transition: opacity 0.4s;
+			opacity: 0;*/
 			 margin-top: 30px;
 		}
 
@@ -260,7 +260,9 @@ div.bold{
 	
 }
 
-
+button{
+	visibility: hidden;
+}
 
 
 
