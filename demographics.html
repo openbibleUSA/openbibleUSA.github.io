@@ -1,0 +1,147 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Schools of Ministry Age Demographics</title>
+<link href="css/styles.css" rel="stylesheet" type="text/css">
+		<script>function displayGraph() {
+    var element = document.getElementById("highcharts-cd3210f1-2007-4370-a997-7175e80faa27");
+    element.classList.toggle("displayon");
+}</script>
+</head>
+
+<body>
+		<div class="header">
+<ul id="mainNav" class="nav">
+	<a href="index.html"><li class="navlink" style="">Home</li></a>
+		<div class="dropdown">
+  <a href="affilliated-churches.html" class="dropbtn">Affiliated Churches</a>
+  <div class="dropdown-content">
+    <a href="church-plants.html">Church Plants</a>
+    <a href="five-percent.html">Five Percent</a>
+  </div>
+</div>
+<!--	<a href="church-plants.html"><li class="navlink">Church Plants</li></a>
+	<a href="five-percent.html"><li class="navlink">Five Percent</li></a>-->
+	<a href="mvp-churches.html"><li class="navlink">MVP</li></a>
+	<div class="dropdown">
+  <a href="disciples-total.html" class="dropbtn">Disciples Made</a>
+  <div class="dropdown-content">
+    <a href="disciples-usa.html">US Disciples</a>
+    <a href="disciples-global.html">Global Disciples</a>
+  </div>
+</div>
+<!--	<a href="disciples-total.html"><li class="navlink">Disciples Made</li></a>
+	<a href="disciples-usa.html"><li class=" navlink">US Disciples</li></a>
+	<a href="disciples-global.html"><li class=" navlink">Global Disciples</li></a>-->
+		<div class="dropdown">
+  <a href="credentialed-ministers.html" class="dropbtn">Credentialed Ministers</a>
+  <div class="dropdown-content">
+    <a href="new-ministers.html">New Ministers</a>
+    <a href="ministers-tithe.html">Ministerial Tithe</a>
+  </div>
+</div>
+<!--	<a href="credentialed-ministers.html"><li class=" navlink">Credentialed Ministers</li></a>
+	<a href="new-ministers.html"><li class=" navlink">New Ministers</li></a>
+	<a href="ministers-tithe.html"><li class=" navlink">Ministerial Tithe</li></a>-->
+	<div class="dropdown">
+  <a href="nations-reached.html" class="dropbtn">Nations Reached</a>
+  <div class="dropdown-content">
+    <a href="missionaries-deployed.html">Missionaries Deployed</a>
+  </div>
+</div>
+<!--	<a href="nations-reached.html"><li class=" navlink">Nations Reached</li></a>
+	<a href="missionaries-deployed.html"><li class=" navlink">Missionaries Deployed</li></a>-->
+	<div class="dropdown">
+  <a href="schools.html" class="dropbtn">Schools of Ministry</a>
+  <div class="dropdown-content">
+    <a href="demographics.html">Age Demographics</a>
+	<a href="employment.html">Student Employment</a>
+  </div>
+</div>
+	
+</ul>
+		</div>
+	
+	
+<div id="highcharts-cd3210f1-2007-4370-a997-7175e80faa27"></div><script>
+(function(){ var files = ["https://code.highcharts.com/stock/highstock.js","https://code.highcharts.com/highcharts-more.js","https://code.highcharts.com/highcharts-3d.js","https://code.highcharts.com/modules/data.js","https://code.highcharts.com/modules/exporting.js","https://code.highcharts.com/modules/funnel.js","https://code.highcharts.com/modules/annotations.js","https://code.highcharts.com/modules/solid-gauge.js"],loaded = 0; if (typeof window["HighchartsEditor"] === "undefined") {window.HighchartsEditor = {ondone: [cl],hasWrapped: false,hasLoaded: false};include(files[0]);} else {if (window.HighchartsEditor.hasLoaded) {cl();} else {window.HighchartsEditor.ondone.push(cl);}}function isScriptAlreadyIncluded(src){var scripts = document.getElementsByTagName("script");for (var i = 0; i < scripts.length; i++) {if (scripts[i].hasAttribute("src")) {if ((scripts[i].getAttribute("src") || "").indexOf(src) >= 0 || (scripts[i].getAttribute("src") === "http://code.highcharts.com/highcharts.js" && src === "https://code.highcharts.com/stock/highstock.js")) {return true;}}}return false;}function check() {if (loaded === files.length) {for (var i = 0; i < window.HighchartsEditor.ondone.length; i++) {try {window.HighchartsEditor.ondone[i]();} catch(e) {console.error(e);}}window.HighchartsEditor.hasLoaded = true;}}function include(script) {function next() {++loaded;if (loaded < files.length) {include(files[loaded]);}check();}if (isScriptAlreadyIncluded(script)) {return next();}var sc=document.createElement("script");sc.src = script;sc.type="text/javascript";sc.onload=function() { next(); };document.head.appendChild(sc);}function each(a, fn){if (typeof a.forEach !== "undefined"){a.forEach(fn);}else{for (var i = 0; i < a.length; i++){if (fn) {fn(a[i]);}}}}var inc = {},incl=[]; each(document.querySelectorAll("script"), function(t) {inc[t.src.substr(0, t.src.indexOf("?"))] = 1; }); function cl() {if(typeof window["Highcharts"] !== "undefined"){var options={"title":{"text":"Schools of Ministry"},"subtitle":{"text":"Age Demographics"},"exporting":{},"chart":{"type":"column","polar":false},"plotOptions":{"series":{"dataLabels":{"enabled":true},"animation":false}},"series":[{"name":"Legacy","turboThreshold":0,"_colorIndex":0,"_symbolIndex":0},{"name":"Toledo","turboThreshold":0,"_colorIndex":1,"_symbolIndex":1},{"name":"HBI","turboThreshold":0,"_colorIndex":2,"_symbolIndex":2},{"name":"Discover","turboThreshold":0,"_colorIndex":3,"_symbolIndex":3}],"data":{"csv":"\"Ages\";\"Legacy\";\"Toledo\";\"HBI\";\"Discover\"\n\"16-24\";6;3;4;25\n\"25-34\";1;1;2;20\n\"35-44\";1;1;1;14\n\"45-54\";0;0;0;14\n\"55+\";2;0;0;18","googleSpreadsheetKey":false,"googleSpreadsheetWorksheet":false},"yAxis":[{"title":{"text":"Number of Students"}}]};/*
+// Sample of extending options:
+Highcharts.merge(true, options, {
+    chart: {
+        backgroundColor: "#bada55"
+    },
+    plotOptions: {
+        series: {
+            cursor: "pointer",
+            events: {
+                click: function(event) {
+                    alert(this.name + " clicked\n" +
+                          "Alt: " + event.altKey + "\n" +
+                          "Control: " + event.ctrlKey + "\n" +
+                          "Shift: " + event.shiftKey + "\n");
+                }
+            }
+        }
+    }
+});
+*/new Highcharts.Chart("highcharts-cd3210f1-2007-4370-a997-7175e80faa27", options);}}})();
+</script>
+	
+		<div id="mvpTotalTable">
+<div class="divTable">
+<div class="divTableBody">
+<div class="divTableRow">
+<div class="divTableCell bold" style="background-color: #ccc; border-radius: 15px 0px 0px 0px;">Ages</div>
+<div class="divTableCell bold" style="background-color: #ccc;">Legacy</div>
+<div class="divTableCell bold" style="background-color: #ccc;">Toledo</div>
+<div class="divTableCell bold" style="background-color: #ccc;">HBI</div>
+<div class="divTableCell bold" style="background-color: #ccc; border-radius: 0px 15px 0px 0px;">Discover</div>
+</div>
+<div class="divTableRow">
+<div class="divTableCell">16-24</div>
+<div class="divTableCell">6</div>
+<div class="divTableCell">3</div>
+<div class="divTableCell">4</div>
+<div class="divTableCell">25</div>
+</div>
+<div class="divTableRow">
+<div class="divTableCell">25-34</div>
+<div class="divTableCell">1</div>
+<div class="divTableCell">1</div>
+<div class="divTableCell">2</div>
+<div class="divTableCell">20</div>
+</div>
+<div class="divTableRow">
+<div class="divTableCell">34-44</div>
+<div class="divTableCell">1</div>
+<div class="divTableCell">1</div>
+<div class="divTableCell">1</div>
+<div class="divTableCell">14</div>
+</div>
+<div class="divTableRow">
+<div class="divTableCell">45-54</div>
+<div class="divTableCell">0</div>
+<div class="divTableCell">0</div>
+<div class="divTableCell">0</div>
+<div class="divTableCell">18</div>
+</div>
+<div class="divTableRow">
+<div class="divTableCell">55+</div>
+<div class="divTableCell">2</div>
+<div class="divTableCell">0</div>
+<div class="divTableCell">0</div>
+<div class="divTableCell">18</div>
+</div>
+<div class="divTableRow">
+<div class="divTableCell bold" style="border-radius: 0px 0px 0px 15px;">Total:</div>
+<div class="divTableCell bold">10</div>
+<div class="divTableCell bold" >5</div>
+<div class="divTableCell bold">7</div>
+<div class="divTableCell bold" style="border-radius: 0px 0px 15px 0px ;">91</div>
+</div>
+</div>
+</div>
+	</div>
+</body>
+</html>
